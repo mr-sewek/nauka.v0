@@ -1,22 +1,22 @@
 public class Rower
 {
-    private int id;
+    private int id_r;
     private int status;
     private String kolor;
 
-    public Rower(int i, int o, String p)//Przeciążenie konstruktora
+    public Rower(int id_r, int stat, String kol)//Przeciążenie konstruktora
     {
-        this.id=i;
-        this.status=o;
-        this.kolor=p;
+        this.id_r=id_r;
+        this.status=stat;
+        this.kolor=kol;
     }
 
     public int getId() {
-        return id;
+        return id_r;
     }
 
     public void setId(int id) {
-        this.id = id;
+        this.id_r = id;
     }
 
     public int getStatus() {

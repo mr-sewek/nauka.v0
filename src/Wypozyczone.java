@@ -5,6 +5,14 @@ public class Wypozyczone
     private double data_wyp;
     private double data_odd;
 
+    public Wypozyczone(int id_row, int id_kli, double data_wyp)
+    {
+        this.id_row = id_row;
+        this.id_kli = id_kli;
+        this.data_wyp = data_wyp;
+        this.data_odd = 0;
+    }
+
     public int getId_row() {
         return id_row;
     }
